@@ -1,0 +1,39 @@
+{
+	"questions": [
+		{
+			"q": "¿El pelo de Milei de qué esta hecho?",
+			"a1": "Algodón de azucar",
+			"a2": "Virulana",
+			"a3": "Dólares",
+			"a4": "Sabiduría infinita"
+		},
+		{
+			"q": "¿Es Milei el único candidato a presidente?",
+			"a1": "NO",
+			"a2": "Tal vez",
+			"a3": "",
+			"a4": ""
+		},
+		{
+			"q": "¿aaa",
+			"a1": "ddsa",
+			"a2": "aaaaabbb",
+			"a3": "sss",
+			"a4": "ffff"
+		},
+		{
+			"q": "bbbb",
+			"a1": "sdfdfa",
+			"a2": "asdA vez",
+			"a3": "sds",
+			"a4": ""
+		},
+		{
+			"q": "cccc",
+			"a1": "Nfdsdf<sdO",
+			"a2": "Tal dfSDFDFD",
+			"a3": "DFDFDDD",
+			"a4": "SDADG"
+		}
+	]
+}
