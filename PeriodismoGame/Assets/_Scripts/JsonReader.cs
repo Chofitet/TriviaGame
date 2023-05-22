@@ -24,7 +24,6 @@ public class JsonReader : MonoBehaviour
         public string a4;
     }
 
-    [System.Serializable]
     public class questionsList
     {
         public List<Questions> questions;
@@ -44,7 +43,7 @@ public class JsonReader : MonoBehaviour
         a1Text.text = myQuestions.questions[i].a1;
         a2Text.text = myQuestions.questions[i].a2;
         a3Text.text = myQuestions.questions[i].a3;
-        a4Text.text = myQuestions.questions[i].a4;
+        a4Text.text = myQuestions.questions[i].a4; 
         myQuestions.questions.RemoveAt(i);
     }
 
