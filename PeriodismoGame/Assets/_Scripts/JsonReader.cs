@@ -33,18 +33,19 @@ public class JsonReader : MonoBehaviour
     private void Start()
     {
         myQuestions = JsonUtility.FromJson<questionsList>(JsonEasyQuestions.text);
-        reload();
     }
 
-    public void reload()
+    public List<string> GetQuestionFromJson()
     {
         int i = Random.Range(0, myQuestions.questions.Count);
-        qText.text = myQuestions.questions[i].q;
-        a1Text.text = myQuestions.questions[i].a1;
-        a2Text.text = myQuestions.questions[i].a2;
-        a3Text.text = myQuestions.questions[i].a3;
-        a4Text.text = myQuestions.questions[i].a4; 
+        List<string> Q = new List<string>();
+        Q.Add(myQuestions.questions[i].q);
+        Q.Add(myQuestions.questions[i].a1);
+        Q.Add(myQuestions.questions[i].a2);
+        Q.Add(myQuestions.questions[i].a3);
+        Q.Add(myQuestions.questions[i].a4);
         myQuestions.questions.RemoveAt(i);
+        return Q;
     }
 
 }
