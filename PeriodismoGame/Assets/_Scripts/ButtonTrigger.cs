@@ -5,14 +5,33 @@ using UnityEngine;
 public class ButtonTrigger : MonoBehaviour
 {
     [SerializeField] float reloadtime;
+    [SerializeField] float points;
+    [SerializeField] GameObject Rotator;
     
-    public void _Invoke()
+    public void RigthAnswere()
     {
         Invoke("DeleteQuestionUI", reloadtime);
+        AddPoints(true);
     }
-
+    public void WrongAnswer()
+    {
+        Invoke("DeleteQuestionUI", reloadtime);
+        AddPoints(false);
+    }
     void DeleteQuestionUI ()
     {
         Destroy(this.gameObject);
+    }
+
+    void AddPoints(bool isRigth)
+    {
+        if (Rotator.transform.rotation == Quaternion.Euler(0f, 0f, 180f))
+        {
+            SliderPointsController.SPC.UpdateBar(-points, isRigth, true,reloadtime);
+        }
+        else
+        {
+            SliderPointsController.SPC.UpdateBar(points, isRigth, false,reloadtime);
+        }
     }
 }

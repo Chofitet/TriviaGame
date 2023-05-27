@@ -334,7 +334,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
-        m_MethodName: _Invoke
+        m_MethodName: RigthAnswere
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -468,7 +468,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
-        m_MethodName: _Invoke
+        m_MethodName: WrongAnswer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -818,7 +818,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
-        m_MethodName: _Invoke
+        m_MethodName: WrongAnswer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1087,7 +1087,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
-        m_MethodName: _Invoke
+        m_MethodName: WrongAnswer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1568,3 +1568,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadtime: 0.5
+  points: 10
+  Rotator: {fileID: 3141212493076467563}

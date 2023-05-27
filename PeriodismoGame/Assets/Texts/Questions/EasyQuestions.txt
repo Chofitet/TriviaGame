@@ -5,14 +5,18 @@
 			"a1": "Pong",
 			"a2": "Pac-Man",
 			"a3": "Space Invaders",
-			"a4": "Mario Bros"
+			"a4": "Mario Bros",
+			"g1": "videojuego es la cosa que se juega"
 		},
 		{
 			"q": "¿Cuántos luchadores hay en Street Fighter II?",
 			"a1": "12",
 			"a2": "6",
 			"a3": "10",
-			"a4": "8"
+			"a4": "8",
+			"g1": "Street figher ese en el que se cagan a piñas",
+			"g2": "2 es porque es el segundo",
+			"g3": "luchadores lllllllll"
 		},
 		{
 			"q": "¿Cuál fue la primera consola de PlayStation?",
