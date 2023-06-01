@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayersManager : MonoBehaviour
 {
     List<PlayersInfo> players;
     public static PlayersManager PsM { get; private set; }
+    [SerializeField] CreatePlayerManager CreateplayerManager;
   
     private void OnDestroy()
     {
@@ -23,6 +25,7 @@ public class PlayersManager : MonoBehaviour
 
     public void AssingPlayer(PlayersInfo p)
     {
+        Debug.Log(p._name);
         players.Add(p);
     }
 
@@ -92,11 +95,11 @@ public class PlayersManager : MonoBehaviour
 
     public void payers()
     {
-        sadas();
+        players = CreateplayerManager.GetScriptablesPlayers();
 
         foreach (PlayersInfo p in players)
         {
-            Debug.Log(p._name + " : " + p.MachGroup[0] + " , " + p.MachGroup[1]);
+            Debug.Log(p._name);
         }
     }
 

@@ -1,10 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
+[CreateAssetMenu(menuName = "newPlayer", fileName = "Player")]
 public class PlayersInfo : ScriptableObject
 {
-
     public string _name = "defaul";
     int _points = 0;
      Sprite _avatar;

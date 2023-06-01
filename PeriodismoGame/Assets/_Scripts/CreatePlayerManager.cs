@@ -5,17 +5,18 @@ using UnityEditor;
 using UnityEngine;
 public class CreatePlayerManager : MonoBehaviour
 {
-    PlayersInfo newPlayer;
     [SerializeField] GameObject CustomisePlayerUI;
      GameObject UIinstate;
     [SerializeField] GameObject PlayerContein;
-
+    [SerializeField] List<PlayersInfo> AllScriptablePlayers;
+    int i;
+    List<PlayersInfo> AUX;
     public void FillScriptableObject()
     {
-        newPlayer = ScriptableObject.CreateInstance<PlayersInfo>();
         CusomisePlayerUIInfo UIScript = UIinstate.GetComponent<CusomisePlayerUIInfo>();
-        newPlayer.SetUp(UIScript.GetNamePlayer(), UIScript.GetAvatar());
-        PlayersManager.PsM.AssingPlayer(newPlayer);
+        AllScriptablePlayers[i].SetUp(UIScript.GetNamePlayer(), UIScript.GetAvatar());
+        AUX.Add(AllScriptablePlayers[i]);
+        i += 1;
     }
     public void InstanciateCustomisePlayerUI()
     {
@@ -23,4 +24,8 @@ public class CreatePlayerManager : MonoBehaviour
         UIinstate.transform.SetParent(PlayerContein.transform);
     }
 
+    public List<PlayersInfo> GetScriptablesPlayers()
+    {
+        return AUX;
+    }
 }
