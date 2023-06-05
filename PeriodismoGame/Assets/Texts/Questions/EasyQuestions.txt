@@ -1,39 +1,71 @@
 {
 	"questions": [
 		{
-			"q": "¿El pelo de Milei de qué esta hecho?",
-			"a1": "Algodón de azucar",
-			"a2": "Virulana",
-			"a3": "Dólares",
-			"a4": "Sabiduría infinita"
+			"q": "¿Cuál fue el primer videojuego desarrollado?",
+			"a1": "Pong",
+			"a2": "Pac-Man",
+			"a3": "Space Invaders",
+			"a4": "Mario Bros",
+			"g1": "videojuego es la cosa que se juega"
 		},
 		{
-			"q": "¿Es Milei el único candidato a presidente?",
-			"a1": "NO",
-			"a2": "Tal vez",
+			"q": "¿Cuántos luchadores hay en Street Fighter II?",
+			"a1": "12",
+			"a2": "6",
+			"a3": "10",
+			"a4": "8",
+			"g1": "Street figher ese en el que se cagan a piñas",
+			"g2": "2 es porque es el segundo",
+			"g3": "luchadores lllllllll"
+		},
+		{
+			"q": "¿Cuál fue la primera consola de PlayStation?",
+			"a1": "PS1",
+			"a2": "PlayStation Origin",
+			"a3": "Playstation One",
+			"a4": "PS Proyect"
+		},
+		{
+			"q": "¿Cuál es el material de la primera espada que recibes en The Legend of Zelda?",
+			"a1": "Madera",
+			"a2": "Acero",
+			"a3": "Hierro",
+			"a4": "Hueso"
+		},
+		{
+			"q": "¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?",
+			"a1": "Racoon City",
+			"a2": "New York",
 			"a3": "",
 			"a4": ""
 		},
 		{
-			"q": "¿aaa",
-			"a1": "ddsa",
-			"a2": "aaaaabbb",
-			"a3": "sss",
-			"a4": "ffff"
-		},
-		{
-			"q": "bbbb",
-			"a1": "sdfdfa",
-			"a2": "asdA vez",
-			"a3": "sds",
+			"q": "¿Cuál es el número de serie del protagonista de Hitman?",
+			"a1": "47",
+			"a2": "57",
+			"a3": "007",
 			"a4": ""
 		},
 		{
-			"q": "cccc",
-			"a1": "Nfdsdf<sdO",
-			"a2": "Tal dfSDFDFD",
-			"a3": "DFDFDDD",
-			"a4": "SDADG"
+			"q": "¿En qué plataforma se lanzó originalmente Starcrat?",
+			"a1": "PC",
+			"a2": "PS1",
+			"a3": "",
+			"a4": ""
+		},
+		{
+			"q": "¿Qué significa la M en la clasificación de contenido?",
+			"a1": "17+",
+			"a2": "14+",
+			"a3": "21+",
+			"a4": ""
+		},
+		{
+			"q": "¿Con que botón comenzaba el código Konami?",
+			"a1": "Arriba",
+			"a2": "Abajo",
+			"a3": "Start",
+			"a4": "Izquierda"
 		}
 	]
 }

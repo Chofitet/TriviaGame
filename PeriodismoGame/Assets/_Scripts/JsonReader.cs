@@ -14,6 +14,29 @@ public class JsonReader : MonoBehaviour
 
     public int a;
 
+    private void Awake()
+    {
+        GameManager.OnGameStateChanged += GameManager_OnGameStateChanged;
+    }
+    private void OnDestroy()
+    {
+        GameManager.OnGameStateChanged -= GameManager_OnGameStateChanged;
+    }
+    private void Start()
+    {
+        RefreshList();
+    }
+    void RefreshList()
+    {
+        myQuestions = JsonUtility.FromJson<questionsList>(JsonEasyQuestions.text);
+    }
+    private void GameManager_OnGameStateChanged(GameManager.GameState obj)
+    {
+        if (obj == GameManager.GameState.TriviaGame)
+        { 
+            Debug.Log(obj);
+            RefreshList(); }
+    }
     [System.Serializable]
     public class Questions
     {
@@ -22,6 +45,9 @@ public class JsonReader : MonoBehaviour
         public string a2;
         public string a3;
         public string a4;
+        public string g1;
+        public string g2;
+        public string g3;
     }
 
     public class questionsList
@@ -30,21 +56,22 @@ public class JsonReader : MonoBehaviour
     }
     public questionsList myQuestions = new questionsList();
 
-    private void Start()
-    {
-        myQuestions = JsonUtility.FromJson<questionsList>(JsonEasyQuestions.text);
-        reload();
-    }
-
-    public void reload()
+    public List<string> GetQuestionFromJson()
     {
         int i = Random.Range(0, myQuestions.questions.Count);
-        qText.text = myQuestions.questions[i].q;
-        a1Text.text = myQuestions.questions[i].a1;
-        a2Text.text = myQuestions.questions[i].a2;
-        a3Text.text = myQuestions.questions[i].a3;
-        a4Text.text = myQuestions.questions[i].a4; 
+        List<string> Q = new List<string>();
+        Q.Add(myQuestions.questions[i].q);
+        Q.Add(myQuestions.questions[i].a1);
+        Q.Add(myQuestions.questions[i].a2);
+        Q.Add(myQuestions.questions[i].a3);
+        Q.Add(myQuestions.questions[i].a4);
+        Q.Add(myQuestions.questions[i].g1);
+        Q.Add(myQuestions.questions[i].g2);
+        Q.Add(myQuestions.questions[i].g3);
         myQuestions.questions.RemoveAt(i);
+        return Q;
     }
+
+    
 
 }
