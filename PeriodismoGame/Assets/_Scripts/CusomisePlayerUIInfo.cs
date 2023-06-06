@@ -8,6 +8,7 @@ public class CusomisePlayerUIInfo : MonoBehaviour
 {
     [SerializeField] Button CreateButton;
     [SerializeField] Button DeleteButtom;
+    [SerializeField] Image image;
     CreatePlayerManager CPM;
 
     private void Start()
@@ -21,7 +22,7 @@ public class CusomisePlayerUIInfo : MonoBehaviour
     }
     public Sprite GetAvatar()
     {
-        return GetComponentInChildren<Image>().sprite;
+        return image.sprite;
     }
 
     void AddButtonBehaviour()

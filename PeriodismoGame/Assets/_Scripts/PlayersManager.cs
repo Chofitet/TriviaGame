@@ -9,10 +9,6 @@ public class PlayersManager : MonoBehaviour
     public static PlayersManager PsM { get; private set; }
     [SerializeField] CreatePlayerManager CreateplayerManager;
   
-    private void OnDestroy()
-    {
-        GameManager.OnGameStateChanged -= sortPlayers;
-    }
     private void Awake()
     {
         if (PsM != null && PsM != this)
@@ -20,40 +16,12 @@ public class PlayersManager : MonoBehaviour
             Destroy(this);
         }
         else PsM = this;
-        GameManager.OnGameStateChanged += sortPlayers;
     }
 
     public void AssingPlayer(PlayersInfo p)
     {
         Debug.Log(p._name);
         players.Add(p);
-    }
-
-    public void sortPlayers(GameManager.GameState obj)
-    {
-        if(obj == GameManager.GameState.SortPlayers)
-        {
-            int numPlayers = players.Count;
-
-            switch (numPlayers)
-            {
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-            }
-        }
-        
     }
 
     void sadas()

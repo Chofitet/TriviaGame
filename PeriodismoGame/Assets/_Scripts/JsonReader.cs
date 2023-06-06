@@ -5,7 +5,7 @@ using TMPro;
 
 public class JsonReader : MonoBehaviour
 {
-    public TextAsset JsonEasyQuestions;
+    public TextAsset[] JsonEasyQuestions;
     [SerializeField] TMP_Text qText;
     [SerializeField] TMP_Text a1Text;
     [SerializeField] TMP_Text a2Text;
@@ -22,20 +22,27 @@ public class JsonReader : MonoBehaviour
     {
         GameManager.OnGameStateChanged -= GameManager_OnGameStateChanged;
     }
-    private void Start()
+    void RefreshList(int i)
     {
-        RefreshList();
-    }
-    void RefreshList()
-    {
-        myQuestions = JsonUtility.FromJson<questionsList>(JsonEasyQuestions.text);
+        myQuestions = JsonUtility.FromJson<questionsList>(JsonEasyQuestions[i].text);
     }
     private void GameManager_OnGameStateChanged(GameManager.GameState obj)
     {
-        if (obj == GameManager.GameState.TriviaGame)
-        { 
+        if (obj == GameManager.GameState.Category1)
+        {
             Debug.Log(obj);
-            RefreshList(); }
+            RefreshList(0);
+        }
+        if (obj == GameManager.GameState.Category2)
+        {
+            Debug.Log(obj);
+            RefreshList(1);
+        }
+        if (obj == GameManager.GameState.Category3)
+        {
+            Debug.Log(obj);
+            RefreshList(2);
+        }
     }
     [System.Serializable]
     public class Questions

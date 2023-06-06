@@ -8,6 +8,8 @@ public class SliderPointsController : MonoBehaviour
 {
     public static SliderPointsController SPC { get; private set; }
     [SerializeField] DeliveryQuestions DQ;
+    [SerializeField] PlayersInfo Play1;
+    [SerializeField] PlayersInfo Play2;
     private void Awake()
     {
         if (SPC != null && SPC != this)
@@ -40,5 +42,17 @@ public class SliderPointsController : MonoBehaviour
     {
         yield return new WaitForSeconds(sec);
         DQ.GiveQuestion(b);
+    }
+
+    private void Update()
+    {
+        if(slider.value >= 100)
+        {
+            GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
+        }
+        if(slider.value <= 0)
+        {
+            GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
+        }
     }
 }

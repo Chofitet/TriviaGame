@@ -21,23 +21,21 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        UpdateGameState(GameState.MainMenu);
+        UpdateGameState(GameState.Category1);
     }
     public void UpdateGameState(GameState newState)
     {
         switch (newState)
         {
-            case GameState.MainMenu:
-                break;
             case GameState.PauseMenu:
                 break;
-            case GameState.CustomizePlayers:
-                break;
-            case GameState.Instructions:
-                break;
-            case GameState.SortPlayers:
-                break;
             case GameState.TriviaGame:
+                break;
+            case GameState.Category1:
+                break;
+            case GameState.Category2:
+                break;
+            case GameState.Category3:
                 break;
             case GameState.PartialWinner:
                 break;
@@ -48,22 +46,16 @@ public class GameManager : MonoBehaviour
         }
         OnGameStateChanged?.Invoke(newState);
 
-        
-    }
-    public void CHangwe()
-    {
-        UpdateGameState(GameState.TriviaGame);
     }
     public enum GameState
     {
-        MainMenu,
         PauseMenu,
-        CustomizePlayers,
-        Instructions,
-        SortPlayers,
         TriviaGame,
         PartialWinner,
         Glosary,
         Winner,
+        Category1,
+        Category2,
+        Category3,
     }
 }

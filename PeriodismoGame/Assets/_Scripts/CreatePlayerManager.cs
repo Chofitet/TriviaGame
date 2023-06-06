@@ -15,13 +15,13 @@ public class CreatePlayerManager : MonoBehaviour
     {
         CusomisePlayerUIInfo UIScript = UIinstate.GetComponent<CusomisePlayerUIInfo>();
         AllScriptablePlayers[i].SetUp(UIScript.GetNamePlayer(), UIScript.GetAvatar());
-        AUX.Add(AllScriptablePlayers[i]);
+        //AUX.Add(AllScriptablePlayers[i]);
         i += 1;
     }
     public void InstanciateCustomisePlayerUI()
     {
         UIinstate = Instantiate(CustomisePlayerUI);
-        UIinstate.transform.SetParent(PlayerContein.transform);
+        //UIinstate.transform.SetParent(PlayerContein.transform);
     }
 
     public List<PlayersInfo> GetScriptablesPlayers()

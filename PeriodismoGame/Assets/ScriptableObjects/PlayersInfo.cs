@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PlayersInfo : ScriptableObject
 {
     public string _name = "defaul";
-    int _points = 0;
+    float _points = 0;
      Sprite _avatar;
      public List<int> MachGroup;
     public void SetUp(string n, Sprite i)
@@ -14,7 +14,19 @@ public class PlayersInfo : ScriptableObject
         _avatar = i;
     }
 
-    public void AddPoints(int p)
+    public float GetPoints()
+    {
+        return _points;
+    }
+    public Sprite GetAvatar()
+    {
+        return _avatar;
+    }
+    public string GetName()
+    {
+        return _name;
+    }
+    public void AddPoints(float p)
     {
        _points += p;
     }
