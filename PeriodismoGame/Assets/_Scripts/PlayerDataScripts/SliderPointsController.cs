@@ -10,6 +10,7 @@ public class SliderPointsController : MonoBehaviour
     [SerializeField] DeliveryQuestions DQ;
     [SerializeField] PlayersInfo Play1;
     [SerializeField] PlayersInfo Play2;
+    [SerializeField] GameSceneController GSC;
     private void Awake()
     {
         if (SPC != null && SPC != this)
@@ -48,10 +49,12 @@ public class SliderPointsController : MonoBehaviour
     {
         if(slider.value >= 100)
         {
+            GSC.GetPartialPoints();
             GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
         }
         if(slider.value <= 0)
         {
+            GSC.GetPartialPoints();
             GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
         }
     }

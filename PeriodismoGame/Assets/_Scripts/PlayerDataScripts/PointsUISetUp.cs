@@ -13,8 +13,18 @@ public class PointsUISetUp : MonoBehaviour
 
     private void OnEnable()
     {
-        Nameplayer.text = PI.GetName();
-        Pointsplayer.text = PI.GetPoints().ToString();
+        if (PI == null)
+        {
+            PI = GetComponent<WinnerSelector>().WinnerPlayer();
+            if (PI == null)
+            {
+                GameManager.gameManager.UpdateGameState(GameManager.GameState.Tie);
+                return;
+            }
+        }
         Imageplayer.sprite = PI.GetAvatar();
+        Nameplayer.text = PI.GetName();
+        if (Pointsplayer == null) return;
+        Pointsplayer.text = PI.GetPoints().ToString();
     }
 }

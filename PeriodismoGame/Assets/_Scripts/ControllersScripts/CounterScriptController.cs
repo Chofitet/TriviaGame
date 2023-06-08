@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CounterScriptController : MonoBehaviour
 {
+    [SerializeField] GameObject UI;
     public static CounterScriptController Counter { get; private set; }
     private void Awake()
     {
@@ -15,8 +16,22 @@ public class CounterScriptController : MonoBehaviour
         {
             Counter = this;
         }
+        GameManager.OnGameStateChanged += GameManager_OnGameStateChanged;
     }
-    [SerializeField] GameObject UI;
+
+    private void OnDestroy()
+    {
+        GameManager.OnGameStateChanged -= GameManager_OnGameStateChanged;
+    }
+
+    private void GameManager_OnGameStateChanged(GameManager.GameState obj)
+    {
+        if (obj == GameManager.GameState.PartialWinner)
+        {
+            enableCounter();
+        }
+    }
+    
     public void CallCounter()
     {
         UI.SetActive(true);

@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Winner:
                 break;
+            case GameState.Tie:
+                break;
         }
         OnGameStateChanged?.Invoke(newState);
 
@@ -54,6 +56,7 @@ public class GameManager : MonoBehaviour
         PartialWinner,
         Glosary,
         Winner,
+        Tie,
         Category1,
         Category2,
         Category3,

@@ -30,4 +30,9 @@ public class PlayersInfo : ScriptableObject
     {
        _points += p;
     }
+
+    public void RestartPoints()
+    {
+        _points = 0;
+    }
 }

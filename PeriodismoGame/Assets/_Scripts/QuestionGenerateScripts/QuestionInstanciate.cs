@@ -53,7 +53,6 @@ public class QuestionInstanciate : MonoBehaviour
 
     void SetUpScreen()
     {
-        Debug.Log("rotate");
         Rotator.transform.rotation = Rotator.transform.rotation * Quaternion.Euler(0f, 0f, 180f);
     }
 

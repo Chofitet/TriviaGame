@@ -1,15 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PartialPointsScreenController : MonoBehaviour
 {
     [SerializeField] GameObject UI;
     private int CategoryCount;
-    [SerializeField] Slider slider;
-    [SerializeField] PlayersInfo Play1;
-    [SerializeField] PlayersInfo Play2;
+    
 
     private void Awake()
     {
@@ -24,7 +21,6 @@ public class PartialPointsScreenController : MonoBehaviour
         if(obj == GameManager.GameState.PartialWinner)
         {
             UI.SetActive(true);
-            GetPartialPoints();
         }
         else UI.SetActive(false);
     }
@@ -41,28 +37,12 @@ public class PartialPointsScreenController : MonoBehaviour
             case 2:
                 GameManager.gameManager.UpdateGameState(GameManager.GameState.Category3);
                 break;
+            case 3:
+                GameManager.gameManager.UpdateGameState(GameManager.GameState.Winner);
+                break;
+
         }
     }
 
-    void GetPartialPoints()
-    { 
-        if(slider.value > 50 && slider.value < 100)
-        {
-            Play1.AddPoints(slider.value - 50);
-        }
-        if(slider.value < 50 && slider.value > 0)
-        {
-            Play2.AddPoints((slider.value * -1) + 50);
-        }
-
-        if (slider.value >= 100)
-        {
-            Play1.AddPoints(100);
-        }
-        if (slider.value <= 0)
-        {
-            Play2.AddPoints(100);
-        }
-
-    }
+    
 }

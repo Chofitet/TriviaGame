@@ -6,12 +6,16 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     [SerializeField] string SceneToChange;
+    [SerializeField] GameManager.GameState gameState;
 
-    public void Change()
+    public void SceneChange()
     {
-        GameManager.gameManager.UpdateGameState(GameManager.GameState.Category1);
         SceneManager.LoadScene(SceneToChange);
-        
+    }
+
+    public void ChangeGameState()
+    {
+        GameManager.gameManager.UpdateGameState(gameState);
     }
 
 }
