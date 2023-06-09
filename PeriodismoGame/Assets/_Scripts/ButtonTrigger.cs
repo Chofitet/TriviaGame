@@ -10,21 +10,15 @@ public class ButtonTrigger : MonoBehaviour
     [SerializeField] GameObject Rotator;
     [SerializeField] GameObject DiseablePanel;
 
-    private void Start()
-    {
-    }
-
     public void RigthAnswere()
     {
         Invoke("DeleteQuestionUI", reloadtime);
         AddPoints(true);
-        DisenableButtons();
     }
     public void WrongAnswer()
     {
         Invoke("DeleteQuestionUI", reloadtime);
         AddPoints(false);
-        DisenableButtons();
     }
     void DeleteQuestionUI ()
     {
@@ -43,8 +37,4 @@ public class ButtonTrigger : MonoBehaviour
         }
     }
 
-    void DisenableButtons()
-    { 
-
-    }
 }

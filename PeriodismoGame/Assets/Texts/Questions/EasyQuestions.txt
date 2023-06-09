@@ -1,15 +1,7 @@
 {
 	"questions": [
 		{
-			"q": "¿Cuál fue el primer videojuego desarrollado?",
-			"a1": "Pong",
-			"a2": "Pac-Man",
-			"a3": "Space Invaders",
-			"a4": "Mario Bros",
-			"g1": "videojuego es la cosa que se juega"
-		},
-		{
-			"q": "¿Cuántos luchadores hay en Street Fighter II?",
+			"q": "¿Cuántos {} luchadores hay en Street Fighter II?",
 			"a1": "12",
 			"a2": "6",
 			"a3": "10",
@@ -24,13 +16,6 @@
 			"a2": "PlayStation Origin",
 			"a3": "Playstation One",
 			"a4": "PS Proyect"
-		},
-		{
-			"q": "¿Cuál es el material de la primera espada que recibes en The Legend of Zelda?",
-			"a1": "Madera",
-			"a2": "Acero",
-			"a3": "Hierro",
-			"a4": "Hueso"
 		},
 		{
 			"q": "¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?",
@@ -61,11 +46,32 @@
 			"a4": ""
 		},
 		{
-			"q": "¿Con que botón comenzaba el código Konami?",
-			"a1": "Arriba",
-			"a2": "Abajo",
-			"a3": "Start",
-			"a4": "Izquierda"
+			"q": "¿Qué significa la M en la clasificación de contenido?",
+			"a1": "17+",
+			"a2": "14+",
+			"a3": "21+",
+			"a4": ""
+		},
+		{
+			"q": "¿Qué significa la M en la clasificación de contenido?",
+			"a1": "17+",
+			"a2": "14+",
+			"a3": "21+",
+			"a4": ""
+		},
+		{
+			"q": "¿Qué significa la M en la clasificación de contenido?",
+			"a1": "17+",
+			"a2": "14+",
+			"a3": "21+",
+			"a4": ""
+		},
+		{
+			"q": "¿Qué significa la M en la clasificación de contenido?",
+			"a1": "17+",
+			"a2": "14+",
+			"a3": "21+",
+			"a4": ""
 		}
 	]
 }

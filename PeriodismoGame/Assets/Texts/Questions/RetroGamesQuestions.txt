@@ -1,0 +1,40 @@
+{
+	"questions": [
+		{
+			"q": "¿Cuál fue el primer videojuego desarrollado?",
+			"a1": "Pong",
+			"a2": "Pac-Man",
+			"a3": "Space Invaders",
+			"a4": "Mario Bros",
+			"g1": "videojuego es la cosa que se juega"
+		},
+		{
+			"q": "¿Cuál videojuego casi termina con la industria de los videojuegos?",
+			"a1": "E.T.",
+			"a2": "Pitfall!",
+			"a3": "Frogger",
+			"a4": "Asteroids"
+		},
+		{
+			"q": "¿Cuál fue la empresa que revivió la industria del videojuego?",
+			"a1": "Nintendo",
+			"a2": "Sega",
+			"a3": "Atari",
+			"a4": ""
+		},
+		{
+			"q": "¿Cuál es el material de la primera espada que recibes en The Legend of Zelda?",
+			"a1": "Madera",
+			"a2": "Acero",
+			"a3": "Hierro",
+			"a4": "Hueso"
+		},
+		{
+			"q": "¿Con que botón comenzaba el código Konami?",
+			"a1": "Arriba",
+			"a2": "Abajo",
+			"a3": "Start",
+			"a4": "Izquierda"
+		}
+	]
+}
