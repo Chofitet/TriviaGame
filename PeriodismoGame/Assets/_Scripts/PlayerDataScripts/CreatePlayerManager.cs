@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class CreatePlayerManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class CreatePlayerManager : MonoBehaviour
     public void DataToScriptablesObjects()
     {
         player.SetUp(GetComponentInChildren<TMP_InputField>().text.ToString(), image.sprite);
+        EditorUtility.SetDirty(player);
         player.RestartPoints();
     }
 
