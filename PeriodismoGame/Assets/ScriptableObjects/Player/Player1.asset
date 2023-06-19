@@ -12,5 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa04e1d68f34054ba1029c0525e6985, type: 3}
   m_Name: Player1
   m_EditorClassIdentifier: 
-  _name: defaul
-  MachGroup: 

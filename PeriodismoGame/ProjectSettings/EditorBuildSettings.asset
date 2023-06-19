@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameInstructions.unity
     guid: fad600bd3b87eb4448b44e2518438e56
   - enabled: 1
-    path: Assets/Scenes/SeleccionarJugadores.unity
+    path: Assets/Scenes/Candidatos.unity
     guid: 66c2a41d02595ec40b65b251cb0d7c5f
   - enabled: 1
     path: Assets/Scenes/Instrucciones.unity
