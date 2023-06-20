@@ -49,12 +49,12 @@ public class SliderPointsController : MonoBehaviour
     {
         if(slider.value >= 100)
         {
-            GSC.GetPartialPoints();
+            GSC.GetPartialPointsOtherWay();
             GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
         }
         if(slider.value <= 0)
         {
-            GSC.GetPartialPoints();
+            GSC.GetPartialPointsOtherWay();
             GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
         }
     }

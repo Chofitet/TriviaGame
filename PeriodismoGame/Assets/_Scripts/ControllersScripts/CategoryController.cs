@@ -23,19 +23,25 @@ public class CategoryController : MonoBehaviour
         if (obj == GameManager.GameState.Category1)
         {
             EnableUI();
-            text.text = "SEGURIDAD";
+            text.text = "SALUD";
             StartCoroutine(Disenable());
         }
         if (obj == GameManager.GameState.Category2)
         {
             EnableUI();
-            text.text = "INFRAESTRUCTURA";
+            text.text = "EDUCACION";
             StartCoroutine(Disenable());
         }
         if (obj == GameManager.GameState.Category3)
         {
             EnableUI();
-            text.text = "SALUD";
+            text.text = "SEGURIDAD";
+            StartCoroutine(Disenable());
+        }
+        if (obj == GameManager.GameState.Category4)
+        {
+            EnableUI();
+            text.text = "GENERAL";
             StartCoroutine(Disenable());
         }
     }

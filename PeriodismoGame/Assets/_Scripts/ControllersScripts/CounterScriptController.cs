@@ -5,6 +5,7 @@ using UnityEngine;
 public class CounterScriptController : MonoBehaviour
 {
     [SerializeField] GameObject UI;
+    bool _notCounter;
     public static CounterScriptController Counter { get; private set; }
     private void Awake()
     {
@@ -34,12 +35,23 @@ public class CounterScriptController : MonoBehaviour
     
     public void CallCounter()
     {
-        UI.SetActive(true);
-        Invoke("enableCounter", 3);
+        if(!_notCounter)
+        {
+            UI.SetActive(true);
+            Invoke("enableCounter", 3);
+            _notCounter = false;
+        }
+       
     }
 
-   void enableCounter()
+   public void enableCounter()
     {
         UI.SetActive(false);
     }
+
+    public void notCounter()
+    {
+        _notCounter = true;
+    }
+
 }

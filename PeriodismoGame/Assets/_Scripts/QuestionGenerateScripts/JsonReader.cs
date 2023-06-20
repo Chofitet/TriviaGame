@@ -43,6 +43,11 @@ public class JsonReader : MonoBehaviour
             Debug.Log(obj);
             RefreshList(2);
         }
+        if (obj == GameManager.GameState.Category4)
+        {
+            Debug.Log(obj);
+            RefreshList(3);
+        }
     }
     [System.Serializable]
     public class Questions
