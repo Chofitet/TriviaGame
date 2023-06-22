@@ -111,13 +111,13 @@ public class GameSceneController : MonoBehaviour
         {
             P1Partial = 100;
             Play1.AddPoints(P1Partial);
-            CounterScriptController.Counter.notCounter();
+           // CounterScriptController.Counter.notCounter();
         }
         if (slider.value <= 0)
         {
             P2Partial = 100;
             Play2.AddPoints(P2Partial);
-            CounterScriptController.Counter.notCounter();
+           // CounterScriptController.Counter.notCounter();
         }
 
         slider.value = 50;
