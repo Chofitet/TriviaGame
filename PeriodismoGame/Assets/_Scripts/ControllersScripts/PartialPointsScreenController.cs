@@ -38,6 +38,9 @@ public class PartialPointsScreenController : MonoBehaviour
                 GameManager.gameManager.UpdateGameState(GameManager.GameState.Category3);
                 break;
             case 3:
+                GameManager.gameManager.UpdateGameState(GameManager.GameState.Category4);
+                break;
+            case 4:
                 GameManager.gameManager.UpdateGameState(GameManager.GameState.Winner);
                 break;
 

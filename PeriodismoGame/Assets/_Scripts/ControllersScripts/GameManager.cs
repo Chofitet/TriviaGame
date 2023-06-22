@@ -5,7 +5,6 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
-    
     public static GameManager gameManager { get; private set; }
     public static event Action<GameState> OnGameStateChanged;
     private void Awake()
@@ -37,6 +36,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Category3:
                 break;
+            case GameState.Category4:
+                break;
             case GameState.PartialWinner:
                 break;
             case GameState.Glosary:
@@ -60,5 +61,6 @@ public class GameManager : MonoBehaviour
         Category1,
         Category2,
         Category3,
+        Category4,
     }
 }

@@ -34,7 +34,7 @@ public class GameSceneController : MonoBehaviour
         yield return new WaitForSeconds(gameTime);
         CounterScriptController.Counter.CallCounter();
         yield return new WaitForSeconds(3);
-        GetPartialPoints();
+        GetPartialPointsOtherWay();
         yield return new WaitForSeconds(0.3f);
         GameManager.gameManager.UpdateGameState(GameManager.GameState.PartialWinner);
     }
@@ -76,6 +76,48 @@ public class GameSceneController : MonoBehaviour
         {
             P2Partial = 200;
             Play2.AddPoints(P2Partial);
+        }
+
+        slider.value = 50;
+    }
+
+    public void GetPartialPointsOtherWay()
+    {
+        P1Partial = 0;
+        P2Partial = 0;
+        if (slider.value > 50 && slider.value < 100)
+        {
+            P1Partial = slider.value - 50;
+            P2Partial = 0;
+            Play1.AddPoints(P1Partial);
+            Play2.AddPoints(P2Partial);
+        }
+        if (slider.value < 50 && slider.value > 0)
+        {
+            P2Partial = (50 - slider.value);
+            P1Partial = 0;
+            Play1.AddPoints(P1Partial);
+            Play2.AddPoints(P2Partial);
+        }
+        if (slider.value == 50)
+        {
+            P1Partial = 0;
+            P2Partial = 0;
+            Play1.AddPoints(P1Partial);
+            Play2.AddPoints(P2Partial);
+        }
+
+        if (slider.value >= 100)
+        {
+            P1Partial = 100;
+            Play1.AddPoints(P1Partial);
+           // CounterScriptController.Counter.notCounter();
+        }
+        if (slider.value <= 0)
+        {
+            P2Partial = 100;
+            Play2.AddPoints(P2Partial);
+           // CounterScriptController.Counter.notCounter();
         }
 
         slider.value = 50;
