@@ -13,6 +13,7 @@ public class ButtonTrigger : MonoBehaviour
     public void RigthAnswere()
     {
         Invoke("DeleteQuestionUI", reloadtime);
+        SoundManager.SM.CorrectSound();
         AddPoints(true);
     }
     public void WrongAnswer()
