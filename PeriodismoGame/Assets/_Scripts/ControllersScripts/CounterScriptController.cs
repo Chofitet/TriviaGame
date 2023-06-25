@@ -38,6 +38,7 @@ public class CounterScriptController : MonoBehaviour
         if(!_notCounter)
         {
             UI.SetActive(true);
+            SoundManager.SM.CounterSound();
             Invoke("enableCounter", 3);
             _notCounter = false;
         }
@@ -46,6 +47,7 @@ public class CounterScriptController : MonoBehaviour
 
    public void enableCounter()
     {
+        
         UI.SetActive(false);
     }
 

@@ -19,6 +19,7 @@ public class TieScreenController : MonoBehaviour
     {
         if (obj == GameManager.GameState.Tie)
         {
+            SoundManager.SM.WinSound();
             UI.SetActive(true);
         }
         else UI.SetActive(false);

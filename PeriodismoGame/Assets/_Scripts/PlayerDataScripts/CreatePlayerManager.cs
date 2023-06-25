@@ -10,8 +10,10 @@ public class CreatePlayerManager : MonoBehaviour
 
     public void DataToScriptablesObjects()
     {
+        //var player = ScriptableObject.CreateInstance<PlayersInfo>();
+        Debug.Log(player);
+        player.SetDirty();
         player.SetUp(GetComponentInChildren<TMP_InputField>().text.ToString(), image.sprite);
-        EditorUtility.SetDirty(player);
         player.RestartPoints();
     }
 

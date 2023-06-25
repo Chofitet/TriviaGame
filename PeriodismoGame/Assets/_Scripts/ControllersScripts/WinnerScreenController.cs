@@ -19,6 +19,7 @@ public class WinnerScreenController : MonoBehaviour
     {
         if (obj == GameManager.GameState.Winner)
         {
+            SoundManager.SM.WinSound();
             UI.SetActive(true);
         }
         else UI.SetActive(false);

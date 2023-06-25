@@ -286,3 +286,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneToChange: 
   gameState: 0
+  pitch: 0.95
