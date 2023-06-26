@@ -19,7 +19,7 @@ public class SoundManager : MonoBehaviour
         
         if (SM != null && SM != this)
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
         else
         {
