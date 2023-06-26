@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2201811207959924703}
   - component: {fileID: 3164704727512140415}
   - component: {fileID: 7138536197872544773}
+  - component: {fileID: 3253302076181634027}
   m_Layer: 5
   m_Name: Button Group
   m_TagString: Untagged
@@ -75,6 +76,19 @@ MonoBehaviour:
   fitType: 4
   fitX: 1
   fitY: 1
+--- !u!114 &3253302076181634027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949657931769229051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fda8fa5f6f076d49b75ea450f28b65d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnCorrectAns: {fileID: 2264638064401402064}
 --- !u!1 &1529767494718885935
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,6 +358,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3253302076181634027}
+        m_TargetAssemblyTypeName: ShowCorrectAnswer, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2655593799905289745
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +495,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
         m_MethodName: WrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3253302076181634027}
+        m_TargetAssemblyTypeName: ShowCorrectAnswer, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -828,6 +866,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3253302076181634027}
+        m_TargetAssemblyTypeName: ShowCorrectAnswer, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4471241639205848135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1138,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7358340398406548574}
         m_TargetAssemblyTypeName: ButtonTrigger, Assembly-CSharp
         m_MethodName: WrongAnswer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3253302076181634027}
+        m_TargetAssemblyTypeName: ShowCorrectAnswer, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
