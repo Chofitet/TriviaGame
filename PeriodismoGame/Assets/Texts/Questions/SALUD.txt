@@ -110,7 +110,7 @@
 			"a1": "No, todo el sistema debe cobra salarios acordes a sus capacitación",
 			"a2": "Hay que incrementar la plantilla de personal y también los salarios",
 			"a3": "El personal médico debe prestar servicios para el estado y para particulares tambien",
-			"a4": "La respuesta b y c son correctas"
+			"a4": ""
 		}
 	]
 }

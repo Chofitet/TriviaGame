@@ -9,17 +9,17 @@
 		},
 		{
 			"q": "Para los docentes provinciales, el Frente de Izquierda:",
-			"a1": "1 y 2 son correctas",
+			"a1": "Ambas son correctas",
 			"a2": "duplicará los sueldos y prohibirá los paros y reclamos",
-			"a3": " prohibirá los descuentos y sanciones por paros y reclamos",
-			"a4": " aumentará el salario acorde a la canasta alimentaria"
+			"a3": "prohibirá los descuentos y sanciones por paros y reclamos",
+			"a4": ""
 		},
 		{
 			"q": "Sobre las escuelas provinciales el Frente de Izquierda:",
-			"a1": "2 y 3 son correctas",
+			"a1": "Ambas son correctas",
 			"a2": "reparación de todos los edificios escolares de la provincia",
 			"a3": "sacar de funcionamiento a  las escuelas precarias y aulas contenedores",
-			"a4": "construir gran cantidad de escuelas en los barrios"
+			"a4": ""
 		},
 		{
 			"q": "Según el Frente de Izquierda en todas las escuelas se debe enseñar:",

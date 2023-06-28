@@ -25,6 +25,6 @@ public class PointsUISetUp : MonoBehaviour
         Imageplayer.sprite = PI.GetAvatar();
         Nameplayer.text = PI.GetName();
         if (Pointsplayer == null) return;
-        Pointsplayer.text = PI.GetPoints().ToString();
+        Pointsplayer.text = PI.GetPoints().ToString("F0");
     }
 }

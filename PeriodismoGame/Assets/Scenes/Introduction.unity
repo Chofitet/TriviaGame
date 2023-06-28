@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.42352945, g: 0.6745098, b: 0.8941177, a: 1}
+  m_Color: {r: 0.33999997, g: 0.6897013, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -918,7 +918,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.5432, y: -38.464993}
-  m_SizeDelta: {x: 745.24, y: 980.66}
+  m_SizeDelta: {x: 683.49, y: 980.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083368927
 MonoBehaviour:
@@ -1028,6 +1028,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 179063977}
     m_Modifications:
+    - target: {fileID: 1935543971039975177, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 456
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935543971039975177, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 880
+      objectReference: {fileID: 0}
     - target: {fileID: 1935543971098672052, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1115,6 +1123,14 @@ PrefabInstance:
     - target: {fileID: 1935543971098672059, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
       propertyPath: m_Name
       value: PauseUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935543971098672059, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935543972672335162, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}

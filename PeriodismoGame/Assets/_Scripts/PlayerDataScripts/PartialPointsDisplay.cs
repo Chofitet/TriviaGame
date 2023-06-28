@@ -12,6 +12,6 @@ public class PartialPointsDisplay : MonoBehaviour
     private void OnEnable()
     {
         text = GetComponent<TMP_Text>();
-        text.text = GSC.GetPartialPlayersPoints(PlayerNumber).ToString();
+        text.text = GSC.GetPartialPlayersPoints(PlayerNumber).ToString("F0");
     }
 }

@@ -66,7 +66,7 @@
 		},
 		{
 			"q": "Para garantizar una mayor cantidad de efectivos policiales en las calles Hacemos Unidos por Córdoba propone",
-			"a1": "Incorporación de civiles en áreas administrativas para que los efectivos que ocupan esos lugares salgan a las calles",
+			"a1": "Civiles en áreas administrativas para que efectivos que las ocupan salgan a las calles",
 			"a2": "Fomentar a estudiar en la escuela de policías mediante la mejora de sueldos",
 			"a3": "La reducción de pruebas de estado físicos",
 			"a4": "Un gran aumento a los oficiales"
