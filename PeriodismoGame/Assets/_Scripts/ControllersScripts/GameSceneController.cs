@@ -32,7 +32,10 @@ public class GameSceneController : MonoBehaviour
     IEnumerator GameEnd()
     {
         yield return new WaitForSeconds(gameTime);
-        CounterScriptController.Counter.CallCounter();
+        if (slider.value < 90.1f || slider.value > 9.9f)
+        {
+            CounterScriptController.Counter.CallCounter();
+        }
         yield return new WaitForSeconds(3);
         GetPartialPointsOtherWay();
         yield return new WaitForSeconds(0.3f);

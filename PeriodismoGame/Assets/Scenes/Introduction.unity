@@ -739,6 +739,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 179063977}
     m_Modifications:
+    - target: {fileID: 651497978309438934, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 968483986337827169, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
       propertyPath: m_Name
       value: Flecha
@@ -746,6 +750,10 @@ PrefabInstance:
     - target: {fileID: 4256853738255627341, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
       propertyPath: SceneToChange
       value: PoliticalParties
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379629999610798265, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6511811850298501649, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
       propertyPath: m_RootOrder
@@ -793,9 +801,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
---- !u!4 &1268227334 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6511811850298501649, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
+--- !u!224 &1268227334 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6379629999610798265, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
   m_PrefabInstance: {fileID: 1268227333}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1341110025
