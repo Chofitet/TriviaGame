@@ -48,7 +48,12 @@ public class GameManager : MonoBehaviour
                 break;
         }
         OnGameStateChanged?.Invoke(newState);
-
+        currentState = newState;
+    }
+    GameState currentState;
+    public GameState GiveCurrentState()
+    {
+        return currentState;
     }
     public enum GameState
     {

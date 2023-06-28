@@ -32,7 +32,11 @@ public class GameSceneController : MonoBehaviour
     IEnumerator GameEnd()
     {
         yield return new WaitForSeconds(gameTime);
-        CounterScriptController.Counter.CallCounter();
+        if (GameManager.gameManager.GiveCurrentState() == GameManager.GameState.TriviaGame)
+        {
+            Debug.Log("counter" + slider.value);
+            CounterScriptController.Counter.CallCounter();
+        }
         yield return new WaitForSeconds(3);
         GetPartialPointsOtherWay();
         yield return new WaitForSeconds(0.3f);

@@ -1,0 +1,117 @@
+{
+	"questions": [
+	
+		{
+			"q": "Según el Frente liberal, qué grado de participación debe tener el Estado en materia de seguridad",
+			"a1": "Mixta, el estado debe garantizar un mínimo y los particulares pueden interactuar con el estado",
+			"a2": "Total, la seguridad es uno de los puntos que debe ser monopolio del Estado",
+			"a3": "Ninguna, todos los pilares del estado deben ser privatizados y pasar a manos privadas",
+			"a4": ""
+		},
+		{
+			"q": "¿Por qué el Frente Liberal cree que hay inseguridad en Argentina?",
+			"a1": "Todas las anteriores",
+			"a2": "Porque hay falta de capacitación y de presupuesto",
+			"a3": "Porque no hay voluntad política de combatir el delito, se premia a los delincuentes en perjuicio de los privados",
+			"a4": "A la casta política le conviene que haya inseguridad y caos en las calles para eliminar la libertad ciudadana"
+		},
+		{
+			"q": "¿Cuales son los cambios que haría en materia de seguridad el Frente Liberal?",
+			"a1": "Ambas son correctas",
+			"a2": "Equipar a las fuerzas de seguridad con armas no letales y permitir su portación a los particulares",
+			"a3": "Mayor presencia policial en las calles",
+			"a4": ""
+		},
+		{
+			"q": "¿Cree el Frente Liberal que el ejército debe ayudar a combatir el delito?",
+			"a1": "No, de ninguna manera el ejército debe cuidar a los ciudadanos",
+			"a2": "Si hace falta y por un periodo corto de tiempo",
+			"a3": "Si, es una fuerza más y debe usarse donde haga falta",
+			"a4": ""
+		},
+		{
+			"q": "El Frente de Izquierda cree que las causas provienen de",
+			"a1": "exclusión social, falta de trabajo, salud y educación",
+			"a2": "consumo de drogas desde temprana edad",
+			"a3": "falta de voluntad para conseguir un trabajo digno",
+			"a4": ""
+		},
+		{
+			"q": "Para combatirla el Frente de Izquierda propone",
+			"a1": "promover la autoorganización de los vecinos",
+			"a2": "sumar móviles policiales",
+			"a3": "equipar a las fuerzas policiales con mayor armamento",
+			"a4": "endurecer las penas por delitos"
+		},
+		{
+			"q": "En el sistema policial el Frente de Izquierda desea",
+			"a1": "reorganizar el aparato y elegir a través del voto popular al Comisario",
+			"a2": "mantener estructuras ya existentes",
+			"a3": "mejorar las escuelas de policías",
+			"a4": ""
+		},
+		{
+			"q": "Sobre el Código de Faltas de la Provincia, el Frente de Izquierda",
+			"a1": "eliminarlo junto a toda otra normativa represiva",
+			"a2": "reestructurarlo y adaptarlo",
+			"a3": "mantenerlo en funcionamiento",
+			"a4": "crear un nuevo código a través del voto popular"
+		},
+		{
+			"q": "Para mejorar la seguridad de los cordobeses en la calle de la ciudad el espacio encabezado por Martin Llaryora propone",
+			"a1": "La formación en uso de armas no letales en la policía municipal para combatir el delito",
+			"a2": "El derecho de vecinos a la libre portación de armas como defensa personal",
+			"a3": "Penas más duras y de cumplimiento estricto para los delitos cometidos con armas de fuego",
+			"a4": "Un sistema educativo para que los alumnos se instruyan en el uso de gas pimienta"
+		},
+		{
+			"q": "Para garantizar una mayor cantidad de efectivos policiales en las calles Hacemos Unidos por Córdoba propone",
+			"a1": "Civiles en áreas administrativas para que efectivos que las ocupan salgan a las calles",
+			"a2": "Fomentar a estudiar en la escuela de policías mediante la mejora de sueldos",
+			"a3": "La reducción de pruebas de estado físicos",
+			"a4": "Un gran aumento a los oficiales"
+		},
+		{
+			"q": "En cuanto a la inseguridad causada por motivos de narcotráfico Llaryora y su equipo proponen",
+			"a1": "La asistencia del ejército para combatir puntualmente el fenómeno del narcotráfico",
+			"a2": "El control del servicio policial mediante un supervisor presente en cada patrullero",
+			"a3": "La legalización de las drogas menos nocivas",
+			"a4": "Penas más duras y severas con la privación de algunos derechos humanos"
+		},
+		{
+			"q": "La problemática de la inseguridad tiene su solución con",
+			"a1": "La unificación del ministerio de justicia y la cartera de seguridad, para que funcionen como un mismo ente",
+			"a2": "La presencia e involucramiento directo del gobernador en primera persona en el ministerio de seguridad",
+			"a3": "La presencia activa de la policía federal en los barrios más peligrosos",
+			"a4": "El aumento de presupuesto en un 50 % en la cartera de justicia y en la de seguridad"
+		},
+		{
+			"q": "¿Qué propone Juntos por el cambio como objetivo a alcanzar con el presupuesto de Seguridad?",
+			"a1": "Aumentarlo un 50% desde el 1 de Enero de 2024",
+			"a2": "Disminuirlo un 10% pero aumentar los efectivos policiales",
+			"a3": "Aumentarlo un 15% progresivamente durante 4 años",
+			"a4": "No modificar el presupuesto, pero preparar mejor a las fuerzas"
+		},
+		{
+			"q": "¿Cómo plantea Juntos por el Cambio “blindar” Córdoba del tráfico de drogas?",
+			"a1": "Controlar los cuatro puntos cardinales de la provincia",
+			"a2": "Enviar fuerzas a las villas en búsqueda de narcotraficantes",
+			"a3": "Aumentar los efectivos en las fronteras de Córdoba con Rosario",
+			"a4": "Solicitar ayuda al Ministerio de Seguridad de la Nación"
+		},
+		{
+			"q": "¿Qué ofrece Juntos por el Cambio para mejorar la formación de la policía?",
+			"a1": "Construcción de 3 centros de formación policial",
+			"a2": "Aumento del mínimo requerido de años para egresar en la Escuela de Suboficiales",
+			"a3": "Capacitación constante sobre gatillo fácil y violencia institucional",
+			"a4": "Aumento del presupuesto destinado a la formación policial"
+		},
+		{
+			"q": "Según Juntos por el Cambio, “no alcanza sólo con la Policía en la calle”. ¿Qué proponen para combatir la inseguridad?",
+			"a1": "Pasar de 3.000 cámaras de vigilancia a 20.000",
+			"a2": "Implementación de pistolas taser en toda la provincia",
+			"a3": "Lanzar un sistema con Inteligencia Artificial para alertar sobre delitos",
+			"a4": "Situar un efectivo policial por cada cuadra de la ciudad"
+		}
+	]
+}

@@ -392,8 +392,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mart\xEDn Llaryora es un abogado y pol\xEDtico argentino. Nacio el 6 de
-    octubre de 1972 (edad 50 a\xF1os). Fue  Miembro de la C\xE1mara de Diputados
+  m_text: "Mart\xEDn Llaryora es un abogado y pol\xEDtico argentino. Naci\xF3 el
+    6 de octubre de 1972 (edad 50 a\xF1os). Fue  Miembro de la C\xE1mara de Diputados
     y actual intendente."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1408,7 +1408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Luis Juez es un abogado y pol\xEDtico argentino. Nacio el 13 de septiembre
+  m_text: "Luis Juez es un abogado y pol\xEDtico argentino. Naci\xF3 el 13 de septiembre
     de 1963 (edad 59 a\xF1os) fue Miembro de la C\xE1mara de Diputados."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1755,8 +1755,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Agust\xEDn Spaccesi es un Politico argentino.Nacio el 3 de julio de 1975
-    (edad 47 a\xF1os)"
+  m_text: "Agust\xEDn Spaccesi es un Politico argentino. Naci\xF3 el 3 de julio de
+    1975 (edad 47 a\xF1os)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2108,7 +2108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.42352945, g: 0.6745098, b: 0.8941177, a: 1}
+  m_Color: {r: 0.33999997, g: 0.692, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2191,9 +2191,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Liliana Olivero es una pol\xEDtica argentina. Nacio el 20 de enero de
-    1956 (edad 67 a\xF1os). Fue Legisladora Provincial de C\xF3rdoba y actual psicopedagoga
-    de ni\xF1os "
+  m_text: "Liliana Olivero es una pol\xEDtica argentina. Naci\xF3 el 20 de enero
+    de 1956 (edad 67 a\xF1os). Fue Legisladora Provincial de C\xF3rdoba y actual
+    psicopedagoga de ni\xF1os "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

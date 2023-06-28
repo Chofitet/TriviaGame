@@ -42,12 +42,10 @@ public class CounterScriptController : MonoBehaviour
             Invoke("enableCounter", 3);
             _notCounter = false;
         }
-       
     }
 
    public void enableCounter()
     {
-        
         UI.SetActive(false);
     }
 

@@ -1,0 +1,116 @@
+{
+	"questions": [
+		{
+			"q": "El Frente de Izquierda quiere declarar emergencia sanitaria porque…",
+			"a1": "la pandemia continúa presente",
+			"a2": "quiere imponer un aumento presupuestario para trabajadores de la salud",
+			"a3": "no hay suficiente cantidad de hospitales públicos",
+			"a4": "para que empresas privadas se encarguen de la salud"
+		},
+		{
+			"q": "El Frente de Izquierda buscará…",
+			"a1": "crear nuevos dispensarios",
+			"a2": "que la carrera de medicina sea más fácil",
+			"a3": "la producción estatal de medicamentos, vacunas y sueros para proveer gratis",
+			"a4": ""
+		},
+		{
+			"q": "En cuanto a las obras sociales, el Frente de Izquierda…",
+			"a1": "creará un Seguro de Salud para todos los cordobeses",
+			"a2": "anulará todas las obras sociales privadas",
+			"a3": "privatizará todas las obras sociales",
+			"a4": ""
+		},
+		{
+			"q": "Sobre la salud mental, el Frente de Izquierda sostiene…",
+			"a1": "que no es importante",
+			"a2": "privatizar todos los centros de atención de salud mental",
+			"a3": "destinar mayor cantidad de presupuesto a la ley de salud mental ",
+			"a4": ""
+		},
+		{
+			"q": "Para una mayor efectividad en el sistema sanitario una de las propuestas del frente es",
+			"a1": "Aumento de presupuesto para salud pública y mejoramiento de la infraestructura de hospitales",
+			"a2": "La baja de impuestos para fomentar el sistema de salud privado",
+			"a3": "El fomento de un sistema mixto “público-privado”, sumando la colaboración de distintas universidades",
+			"a4": "Un salario al personal de salud con aumentos acordes a los ajustes inflacionarios"
+		},
+		{
+			"q": "Para mejorar el bienestar de los cordobeses Hacemos Unidos por Córdoba fomenta",
+			"a1": "Un programa para que todos los ciudadanos menores de 18 años cuenten con una obra social de Elite",
+			"a2": "Cursos formativos obligatorios de nutrición en todos las organizaciones de dependencia pública",
+			"a3": "Un aumento en el presupuesto para entidades relacionadas con la rehabilitación de personas adictas",
+			"a4": "Programas de actividades físicas y estilo de vida saludable"
+		},
+		{
+			"q": "La fórmula Llaryora Prunotto cree que no hay mejor política en cuanto a salud que",
+			"a1": "La buena capacitación de los encargados del ministerio de salud",
+			"a2": "El trabajo en conjunto del personal de salud con el sector del gobierno encargado de deporte y cultura",
+			"a3": "Una política de regulación de precios en obras sociales para una mayor accesibilidad",
+			"a4": "El fomento de una alimentación saludable para la prevención de enfermedades crónicas no transmisibles "
+		},
+		{
+			"q": "Juntos por el Cambio propone que cada cordobés sea un “paciente personalizado”. Esto se refiere a:",
+			"a1": "Que cada cordobés tenga una historia clínica digital única",
+			"a2": "Más médicos distribuidos en toda la provincia",
+			"a3": "Una mejora en el sistema de derivación de pacientes",
+			"a4": "Todas son correctas"
+		},
+		{
+			"q": "Para garantizar el acceso de los pacientes a medicamentos y prótesis de alto costo, Juntos por el Cambio propone",
+			"a1": "Trabajar en las importaciones de Prótesis y Medicaciones junto con el gobierno nacional",
+			"a2": "La implementación de un Plan Social para pacientes que necesiten tratamientos de salud complejos",
+			"a3": "Crear un Banco de Drogas Oncológicas, Prótesis de Alto Costo y Medicaciones Especiales",
+			"a4": "Promover la baja de precios en productos que estén relacionados con elementos para el tratamiento de la salud"
+		},
+		{
+			"q": "Con respecto a la Salud Mental, Juntos por el Cambio plantea",
+			"a1": "Reforzar la medicina pre-hospitalaria, la atención digna y un dispositivo de atención psiquiátrica domiciliaria",
+			"a2": "Promover la baja de precios en consultas de atención psicológica o psiquiátrica",
+			"a3": "Revisar acuerdos con prestadoras de obras sociales para garantizar la atención de los afiliados ",
+			"a4": "No tiene propuestas que involucren la salud mental"
+		},
+		{
+			"q": "En el “Programa Provincial de Atención Materno-Fetal-Infantil” que propone Juntos por el Cambio, se garantiza",
+			"a1": "La provisión de productos para el cuidado y crianza del recién nacido",
+			"a2": "La ayuda económica durante el puerperio de la madre y el período lactante",
+			"a3": "La provisión de leche entera fortificada en polvo",
+			"a4": "qLa provisión de paquetes de pañales mensuales durante el período inicial"
+		},
+		{
+			"q": "El frente liberal cree que la salud en Córdoba...",
+			"a1": "Está bien manejada y responde a las necesidades de la población",
+			"a2": "No funciona y necesita una nueva gestión urgente",
+			"a3": "Anda bien, pero requiere ajustes",
+			"a4": ""
+		},
+		{
+			"q": "¿Que piensa el Frente Liberal en relacion al aborto?",
+			"a1": "Consideran que matar al niño dentro del vientre de la madre es asesinato",
+			"a2": "No son Provida",
+			"a3": "Lo que decida la madre es lo correcto para el nonato",
+			"a4": "Desconocen el tema en cuestión"
+		},
+		{
+			"q": "¿Para el Frente Liberal, cuales son las causas de la situación de la salud en Córdoba?",
+			"a1": "Falta de presupuesto",
+			"a2": "Mala gestión y falta de políticas públicas",
+			"a3": "Corrupción",
+			"a4": "Ninguna de las anteriores"
+		},
+		{
+			"q": "¿Como cree el Frente Liberal que se puede solucionar este problema?",
+			"a1": "Gestión eficiente del dinero público",
+			"a2": "Mayor participación privada en el sistema de salud",
+			"a3": "Limitación de la atención médica pública a personas realmente necesitas",
+			"a4": "Más presupuesto"
+		},
+		{
+			"q": "¿El Frente Liberal cree que los médicos y auxiliares de la salud tienen un sueldo acorde a su profesión?",
+			"a1": "No, todo el sistema debe cobra salarios acordes a sus capacitación",
+			"a2": "Hay que incrementar la plantilla de personal y también los salarios",
+			"a3": "El personal médico debe prestar servicios para el estado y para particulares tambien",
+			"a4": ""
+		}
+	]
+}

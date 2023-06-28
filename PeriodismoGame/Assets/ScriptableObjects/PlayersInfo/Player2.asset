@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa04e1d68f34054ba1029c0525e6985, type: 3}
   m_Name: Player2
   m_EditorClassIdentifier: 
-  _name: 
+  _name: Gustavo
   _points: 0
-  _avatar: {fileID: 21300000, guid: 05f69e0f8c4198d4b87c6e5d50ec31dd, type: 3}
+  _avatar: {fileID: 21300000, guid: 302afed5f56606e4486452f936f3e0c9, type: 3}

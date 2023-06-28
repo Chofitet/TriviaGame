@@ -1,0 +1,124 @@
+{
+	"questions": [
+		{
+			"q": "Sobre el financiamiento el Frente de Izquierda propone:",
+			"a1": "triplicar el presupuesto provincial y nacional",
+			"a2": "mantener el mismo presupuesto, pero administrarlo mejor",
+			"a3": "reducir significativamente el gasto en educación",
+			"a4": ""
+		},
+		{
+			"q": "Para los docentes provinciales, el Frente de Izquierda:",
+			"a1": "Ambas son correctas",
+			"a2": "duplicará los sueldos y prohibirá los paros y reclamos",
+			"a3": "prohibirá los descuentos y sanciones por paros y reclamos",
+			"a4": ""
+		},
+		{
+			"q": "Sobre las escuelas provinciales el Frente de Izquierda:",
+			"a1": "Ambas son correctas",
+			"a2": "reparación de todos los edificios escolares de la provincia",
+			"a3": "sacar de funcionamiento a  las escuelas precarias y aulas contenedores",
+			"a4": ""
+		},
+		{
+			"q": "Según el Frente de Izquierda en todas las escuelas se debe enseñar:",
+			"a1": "educación científica, no dogmática y universal",
+			"a2": "psicología y astrología",
+			"a3": "educación religiosa",
+			"a4": ""
+		},
+		{
+			"q": "¿Qué proyecto propone Llaryora en el que se trabaja la innovación para potenciar el aprendizaje?",
+			"a1": "Escuelas PIEnsA",
+			"a2": "Escuelas Innova",
+			"a3": "Escuelas hacia el futuro",
+			"a4": "Innovando y educando"
+		},
+		{
+			"q": "¿Qué quiere implementar Llaryora para que los estudiantes del interior se formen en carreras que resultan críticas?",
+			"a1": "Un plan de becas",
+			"a2": "PPP para que puedan pagar sus estudios",
+			"a3": "Una inversión inicial para motivar a jóvenes",
+			"a4": "Útiles y libros para sus estudios"
+		},
+		{
+			"q": "La propuesta Llaryora del plan de becas para estudiantes, pide una forma de devolución y es…",
+			"a1": "Que vuelvan a los pueblos a prestar servicios y garantizar recursos",
+			"a2": "Que a medida que consigan trabajos paguen las becas brindadas",
+			"a3": "Que donen su primer sueldo a la municipalidad",
+			"a4": "Que sean profesores/as en las universidades que trabajaron"
+		},
+		{
+			"q": "¿Cuál es el nuevo enfoque que el candidato quiere llevar a cabo en las escuelas?",
+			"a1": "pensamiento computacional, lógico y creativo",
+			"a2": "conocimientos sustentables",
+			"a3": "habilidades técnicas",
+			"a4": "participación activa en la sociedad"
+		},
+		{
+			"q": "En cuanto a los horarios y días de clases, Juntos por el cambio propone:",
+			"a1": "implementar la jornada extendida",
+			"a2": "reducir la jornada a 4 horas diarias",
+			"a3": "ampliar el ciclo lectivo y tener más clases en febrero y diciembre",
+			"a4": "semana académica de 4 días en lugar de 5"
+		},
+		{
+			"q": "Juntos por el Cambio quiere reinstalar el concepto de mérito en las escuelas. Para esto, propone:",
+			"a1": "becar a los mejores promedios de las escuelas más desfavorecidas en universidades",
+			"a2": "recompensar económicamente a los mejores promedios de las escuelas",
+			"a3": "incluir a los mejores promedios en el PPP paralelamente a sus estudios",
+			"a4": "que los mejores promedios puedan faltar más veces al colegio"
+		},
+		{
+			"q": "Para impulsar una mejora en las escuelas más vulnerables, Juntos por el Cambio ofrece:",
+			"a1": "que docentes con mayor experiencia y calificación trabajen en escuelas menos favorecidas",
+			"a2": "que docentes con mayor experiencia y calificación trabajen en escuelas más favorecidas",
+			"a3": "que docentes con menor experiencia y calificación trabajen en las escuelas menos favorecidas",
+			"a4": "que docentes con mayor experiencia y calificación trabajen en escuelas más favorecidas"
+		},
+		{
+			"q": "Para combatir el abandono escolar, Juntos por el Cambio propone impulsar el Operativo Febrero, éste consiste en:",
+			"a1": "Tutorías de seguimiento y apoyo en febrero para quienes abandonaron",
+			"a2": " Evaluación inicial e integradora en febrero para que quienes abandonaron puedan reintegrarse",
+			"a3": "suprimir la fecha de exámenes del ciclo lectivo correspondiente al mes de Febrero de cada año",
+			"a4": "pactar el comienzo del año lectivo para inicios de Febrero de cada año"
+		},
+		{
+			"q": "¿Cómo se define la educación en Córdoba segun el Frente Liberal?",
+			"a1": "Mala, el sistema educativo es obsoleto y decadente",
+			"a2": "La educación es buena pero faltan docentes",
+			"a3": "No hay capacitación suficiente y no hay sana competencia entre las instituciones",
+			"a4": ""
+		},
+		{
+			"q": "Que modificaciones cree el Frente Liberal que son necesarias para mejorar la educación: ",
+			"a1": "Reforma completa de la educación, donde el sistema público y privado coexistan",
+			"a2": "Hace falta más presupuesto y con ello mejora todo el sistema",
+			"a3": "Se debe crear un sistema de financiamiento y competencia entre instituciones",
+			"a4": ""
+		},
+		{
+			"q": "La educación es un problema de presupuesto, a mayor presupuesto mejor educación",
+			"a1": "Falso",
+			"a2": "Verdadero",
+			"a3": "",
+			"a4": ""
+		},
+		{
+			"q": "La educación en Argentina tiene un modelo de más de 200 años. Ya no puede seguirse educando bajo paradigmas que no existen en el mundo desde hace mucho tiempo. La educación debe cambiar",
+			"a1": "Verdadero",
+			"a2": "Falso",
+			"a3": "",
+			"a4": ""
+		},
+		{
+			"q": "Para aprender y educarse no hace falta ir a la escuela de manera presencial",
+			"a1": "Verdadero",
+			"a2": "Falso",
+			"a3": "",
+			"a4": ""
+		}
+		
+	]
+}

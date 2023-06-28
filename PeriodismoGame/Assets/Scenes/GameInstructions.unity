@@ -242,8 +242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5137, y: 79.20093}
-  m_SizeDelta: {x: 890.1182, y: 1630.6189}
+  m_AnchoredPosition: {x: 9.5137, y: 66.201004}
+  m_SizeDelta: {x: 890.118, y: 1574.289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1074251945
 MonoBehaviour:
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.42352945, g: 0.6745098, b: 0.8941177, a: 1}
+  m_Color: {r: 0.33999997, g: 0.692, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -456,8 +456,8 @@ RectTransform:
   - {fileID: 1463419545}
   - {fileID: 1395177172}
   - {fileID: 2112103073}
-  - {fileID: 2051916212}
   - {fileID: 1453073973}
+  - {fileID: 2051916212}
   - {fileID: 1829156113}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 9.5123, y: -322.66528}
-  m_SizeDelta: {x: 890.12, y: 459.5866}
+  m_AnchoredPosition: {x: 9.5123, y: -370.99994}
+  m_SizeDelta: {x: 833.849, y: 459.587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1395177173
 MonoBehaviour:
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.000061035156, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -623,6 +623,10 @@ PrefabInstance:
     - target: {fileID: 4256853738255627341, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
       propertyPath: SceneToChange
       value: GameScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379629999610798265, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6511811850298501649, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
       propertyPath: m_RootOrder
@@ -670,9 +674,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
---- !u!4 &1453073973 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6511811850298501649, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
+--- !u!224 &1453073973 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6379629999610798265, guid: a419a1211f971f94487cc9d085c2b619, type: 3}
   m_PrefabInstance: {fileID: 1453073972}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1463419544
@@ -752,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 369169191205965168, guid: 1ed09b37e9692b24fbd39d9e840c3cb0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -240
+      value: -253
       objectReference: {fileID: 0}
     - target: {fileID: 369169191205965168, guid: 1ed09b37e9692b24fbd39d9e840c3cb0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1048,12 +1052,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1191505019}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5128, y: -429.92}
-  m_SizeDelta: {x: 890.12, y: 612.37}
+  m_AnchoredPosition: {x: 9.5128, y: -442.91995}
+  m_SizeDelta: {x: 833.85, y: 612.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051916213
 MonoBehaviour:
@@ -1075,10 +1079,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tienen 20 segundos en las 5 categor\xEDas.\r\n\nCada respuesta correcta
-    sumara puntos.\r\n\nEl jugador con mas puntos ganara el puesto.\r\n\nSi un jugador
-    logra conseguir el contrato, llev\xE1ndolo hacia su icono en la barra del medio,
-    ganara la categor\xEDa de forma instant\xE1nea. \r\n"
+  m_text: "Tienen 80 segundos en las 5 categor\xEDas.\r\n\nCada respuesta correcta
+    sumara puntos.\r\n\nEl jugador con mas puntos ganar\xE1 el puesto.\r\n\nSi un
+    jugador logra conseguir el contrato, llev\xE1ndolo hacia su \xEDcono en la barra
+    del medio, ganara la categor\xEDa de forma instant\xE1nea. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1190,7 +1194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5137, y: 135}
+  m_AnchoredPosition: {x: 9.5137, y: 93}
   m_SizeDelta: {x: 281.633, y: 517.476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112103074
