@@ -642,6 +642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1935543971098672059, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935543972672335162, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c01d9764b7dab04f883a3c7e36882ea, type: 3}
 --- !u!224 &588882844 stripped
@@ -1409,7 +1417,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Luis Juez es un abogado y pol\xEDtico argentino. Naci\xF3 el 13 de septiembre
-    de 1963 (edad 59 a\xF1os) fue Miembro de la C\xE1mara de Diputados."
+    de 1963 (edad 59 a\xF1os) Senador de Argentina desde 2021, ex embajador de Ecuador."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1436,8 +1444,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
